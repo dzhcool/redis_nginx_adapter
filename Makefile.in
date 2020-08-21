@@ -10,6 +10,7 @@ NGINX_CPPFLAGS = -I $(NGINX_DIR)/src \
  -I $(NGINX_DIR)/src/os/unix \
  -I $(NGINX_DIR)/src/event \
  -I $(NGINX_DIR)/src/http/modules \
+ -I $(NGINX_DIR)/src/proc \
  -I $(NGINX_DIR)/objs
 
 HIREDIS_CPPFLAGS = -I $(HIREDIS_DIR)/include
